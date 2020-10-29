@@ -1,7 +1,8 @@
+from assertions import AssertionsTest
 import unittest
 from selenium import  webdriver
 
-class HomeTests(unittest.TestCase):
+class SearchTests(unittest.TestCase):
 
   def setUp(self):
     self.driver = webdriver.Chrome(executable_path=r'./Driver/chromedriver.exe')

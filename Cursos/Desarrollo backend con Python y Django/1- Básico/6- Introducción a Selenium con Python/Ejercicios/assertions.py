@@ -1,4 +1,3 @@
-from os import truncate
 import unittest
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -38,7 +37,7 @@ class AssertionsTest(unittest.TestCase):
         what: Nos indica el valor que tendrá el selector.
     """
     try:
-      self.driver.find_element(by = how, by = what)
+      self.driver.find_element(by = how, value= what)
     except NoSuchElementException as variable:
       return False
     return True
