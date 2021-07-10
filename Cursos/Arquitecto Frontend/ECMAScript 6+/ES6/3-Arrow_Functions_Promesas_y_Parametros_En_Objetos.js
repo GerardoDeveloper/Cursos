@@ -8,7 +8,7 @@ obj2 = {name, age};
 
 //ARROW FUNCTION ANTES
 const names = [
-  {name: 'Gerardo', age: 32}
+  {name: 'Gerardo', age: 32},
   {name: 'Esteban', age: 25}
 ]
 
